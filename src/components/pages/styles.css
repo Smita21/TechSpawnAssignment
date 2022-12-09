@@ -19,6 +19,9 @@
     transition: transform 50%;
     transform: rotate(calc(var(--nb-turn) * 360deg + (-360deg * var(--selected-item) / var(--notselected-item, 1))));
   }
+  .test{
+    display: flex !important;
+  }
   
   .wheel::after {
     display: block;
